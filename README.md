@@ -4,7 +4,8 @@
   <img alt="Panco logo." src="/logo/PancoLogo_light.png">
 </picture>
 
-# Project PANCO (PANsharpening and COregistration suite)
+# Project PANCO 
+### *(PANsharpening and COregistration suite)*
 *v1.0 (06/06/2024)*  
 *Adriano Tullo, INAF Astronomical Observatory of Padua (IT)*  
   
