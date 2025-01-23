@@ -339,7 +339,6 @@ def crism_align(hiri_image, crism_img, crism_if_img, reference_comb, base_format
             dataset.GetRasterBand(i).WriteArray(tf_img)
             dataset.GetRasterBand(i).SetNoDataValue(65535)
 
-        #TODO USA dst per tagliare pixel eccedenti O aggiungere una traslazione con dimensione img1
         shutil.copy(crism_if_img.replace(".img", ".hdr"), outname.replace("_sr", "_if").replace(".tif", ".hdr"))
         shutil.copy(crism_if_img.replace(".img", ".lbl"), outname.replace("_sr", "_if").replace(".tif", ".lbl"))
         dataset = None
